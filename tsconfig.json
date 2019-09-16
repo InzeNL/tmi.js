@@ -3,7 +3,6 @@
 		"module": "commonjs",
 		"rootDir": "src",
 		"outDir": "lib",
-		"watch": true,
 		"target": "es6",
 		"declaration": true
 	},
