@@ -5,7 +5,7 @@ before_script:
   - npm install -g typescript
 script:
   - tsc
-  - npm test
+  - npm test-travis
 branches:
   only:
     - v2
