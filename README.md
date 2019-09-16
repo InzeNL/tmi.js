@@ -1,4 +1,6 @@
 # tmi.js - v2
+[![Build Status](https://travis-ci.com/InzeNL/tmi.js.svg?branch=v2-travis_ci)](https://travis-ci.com/InzeNL/tmi.js)
+[![Coverage Status](https://coveralls.io/repos/github/InzeNL/tmi.js/badge.svg?branch=v2-travis_ci)](https://coveralls.io/github/InzeNL/tmi.js?branch=v2-travis_ci)
 
 ![](https://i.imgur.com/r1N7y1c.png)
 
