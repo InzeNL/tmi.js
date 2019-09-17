@@ -5,7 +5,8 @@ before_script:
   - npm install -g typescript
 script:
   - tsc
-  - npm run test-travis
+  - nyc npm test && nyc report --reporter=text-lcov | coveralls
+  - stryker run --reporters dashboard
 branches:
   only:
     - v2

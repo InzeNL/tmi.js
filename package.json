@@ -5,8 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "tsc",
-    "test": "mocha",
-    "test-travis": "nyc npm test && nyc report --reporter=text-lcov | coveralls"
+    "test": "mocha"
   },
   "files": [
     "lib",
@@ -28,6 +27,10 @@
     "url": "git://github.com/tmijs/tmi.js-v2.git"
   },
   "devDependencies": {
+    "@stryker-mutator/core": "^2.1.0",
+    "@stryker-mutator/javascript-mutator": "^2.1.0",
+    "@stryker-mutator/mocha-framework": "^2.1.0",
+    "@stryker-mutator/mocha-runner": "^2.1.0",
     "@types/mocha": "^5.2.7",
     "coveralls": "^3.0.6",
     "mocha": "^6.2.0",
